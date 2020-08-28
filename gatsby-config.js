@@ -1,4 +1,4 @@
-const userConfig = require('./config');
+const userConfig = require("./config");
 
 module.exports = {
   siteMetadata: {
@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
@@ -26,7 +26,7 @@ module.exports = {
             options: {
               maxWidth: 700,
               linkImagesToOriginal: false,
-              wrapperStyle: 'margin: 15px -30px !important',
+              wrapperStyle: "margin: 15px -30px !important",
             },
           },
           {
@@ -35,9 +35,9 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
         ],
       },
     },
@@ -56,10 +56,10 @@ module.exports = {
         name: userConfig.title,
         short_name: userConfig.title,
         start_url: userConfig.siteUrl,
-        background_color: '#fff',
+        background_color: "#fff",
         theme_color: userConfig.primaryColor,
-        display: 'minimal-ui',
-        icon: 'src/main.jpg',
+        display: "minimal-ui",
+        icon: "src/mokuzu_icon.png",
       },
     },
     `gatsby-plugin-offline`,

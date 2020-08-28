@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
-import Wrapper from './Wrapper';
-import imgSrc from '../../main.jpg';
+import Wrapper from "./Wrapper";
+import imgSrc from "../../mokuzu_icon.png";
 
 function HeaderImage() {
   return (
